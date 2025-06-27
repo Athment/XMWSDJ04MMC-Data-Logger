@@ -1,5 +1,5 @@
 # XMWSDJ04MMC-Data-Logger
-# Xiaomi TH Monitor - 小米电子温湿度计数据监控工具
+# 小米电子温湿度计数据监控工具
 
 ![Sensor Data Visualization](sensor_data.png)
 
@@ -16,20 +16,15 @@ Xiaomi TH Monitor 是一个用于监控小米电子温湿度计(XMWSDJ04MMC)数�
 
 ## 支持设备
 
-本项目专门针对 **小米电子温湿度计2 (XMWSDJ04MMC)** 开发，型号如下：
-
-```
-Model: LYWSD03MMC
-FCC ID: 2AKIT-ELHT01
-```
+本项目专门针对 **小米电子温湿度计2 (XMWSDJ04MMC)** 开发
 
 ## 功能组件
 
 | 文件 | 功能描述 |
 |------|----------|
 | `sensor_reader.py` | 蓝牙连接与数据读取核心模块 |
-| `monitor.py` | 定时数据采集脚本 |
-| `viewer.py` | 数据可视化工具 |
+| `monitor.py` | 定时数据采集脚本 | 已弃用，功能合并到sensor_reader.py
+| `viewer.py` | 数据可视化工具 | 可编辑
 | `sensor_data.csv` | 数据存储文件 |
 
 ## 安装与配置
