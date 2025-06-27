@@ -39,8 +39,8 @@ Xiaomi TH Monitor 是一个用于监控小米电子温湿度计(XMWSDJ04MMC)数�
 
 1. 克隆仓库：
    ```bash
-   git clone https://github.com/Athment/Xiaomi-TH-Monitor.git
-   cd Xiaomi-TH-Monitor
+   git clone https://github.com/Athment/XMWSDJ04MMC-Data-Logger.git
+   cd XMWSDJ04MMC-Data-Logger
    ```
 
 2. 安装依赖：
@@ -58,17 +58,23 @@ Xiaomi TH Monitor 是一个用于监控小米电子温湿度计(XMWSDJ04MMC)数�
 
 ## 使用说明
 
-### 1. 单次数据采集（初始设定为5分钟定时采集，参数名为interval_minutes）
+### 1. 单次数据采集
 ```bash
 python sensor_reader.py
 ```
 
-### 2. 定时监控（每10分钟采集一次）（已弃用）
+### 2. 定时监控（每5分钟采集一次）（已弃用）
 ```bash
 python monitor.py
 ```
 
-### 3. 数据可视化
+### 3. 定时监控（每5分钟采集一次）
+```bash
+python sensor_reader_new.py
+```
+
+生成的数据将保存为 `sensor_data.csv`
+### 4. 数据可视化
 ```bash
 python viewer.py
 ```
@@ -84,7 +90,7 @@ python viewer.py
 - 保存数据到CSV文件
 - 提供Windows蓝牙设置指南
 
-### `monitor.py`
+### `sensor_reader_new.py`
 定时数据采集脚本：
 - 可配置采集间隔（默认10分钟）
 - 持续运行模式
