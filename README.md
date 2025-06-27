@@ -1,3 +1,5 @@
+en [English](readme/README.en.md) | zh [简体中文](README.md)
+
 # XMWSDJ04MMC-Data-Logger
 # 小米电子温湿度计数据监控工具
 
