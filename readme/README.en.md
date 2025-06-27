@@ -3,7 +3,7 @@ en [English](readme/README.en.md) | zh [简体中文](README.md)
 # XMWSDJ04MMC-Data-Logger
 # Xiaomi Electronic Thermometer and Hygrometer Data Logger
 
-![Sensor Data Visualization](sensor_data.png)
+![Sensor Data Visualization](../sensor_data.png)
 
 ## Project Overview
 
